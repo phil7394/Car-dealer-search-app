@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="3sp">
+
+    <TextView
+        android:id="@+id/dealer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:padding="3sp"
+        android:text="dealer name"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dealer_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dealer_name"
+        android:fontFamily="sans-serif"
+        android:padding="2sp"
+        android:text="dealer address"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+</RelativeLayout>

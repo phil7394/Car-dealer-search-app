@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Car Dealer Search App</string>
+
+    <string-array name="car_makers">
+        <item>Audi</item>
+        <item>BMW</item>
+        <item>Cadillac</item>
+        <item>Chevrolet</item>
+        <item>Dodge</item>
+        <item>Ford</item>
+        <item>Honda</item>
+        <item>Land Rover</item>
+        <item>Lexus</item>
+        <item>Mercedes Benz</item>
+        <item>Nissan</item>
+        <item>Porsche</item>
+        <item>Toyota</item>
+        <item>Volkswagen</item>
+    </string-array>
+
+    <string-array name="maker_pages">
+        <item>http://www.audi.com</item>
+        <item>http://www.bmw.com</item>
+        <item>http://www.cadillac.com/</item>
+        <item>http://www.chevrolet.com/</item>
+        <item>http://www.dodge.com</item>
+        <item>http://www.ford.com</item>
+        <item>http://www.honda.com</item>
+        <item>http://www.landrover.com</item>
+        <item>http://www.lexus.com</item>
+        <item>http://www.mercedes-benz.com</item>
+        <item>http://www.nissan-global.com</item>
+        <item>http://www.porsche.com</item>
+        <item>http://www.toyota.com</item>
+        <item>http://www.volkswagen.com</item>
+    </string-array>
+    <string-array name="dealers">
+        <item>{"dealerList" : [{ "name" : \"Fletcher Jones Audi\", "address" : \"1523 W North Ave\"}, { "name" : \"Greater Chicago Motors\", "address" : \"1850 N Elston Ave\"}, { "name" : \"Audi Westmont\", "address" : \"276 E Ogden Ave\"}]}</item>
+        <item>{"dealerList" : [{ "name" : \"Greater Chicago Motors\", "address" : \"1850 N Elston Ave\"}, { "name" : \"Perillo BMW\", "address" : \"1035 N Clark St\"}, { "name" : \"Elmhurst BMW\", "address" : \"466 W Lake St\"}, { "name" : \"Fields BMW Northfield\", "address" : \"700 Frontage Rd\"}]}</item>
+        <item>{"dealerList" : [{ "name" : \"Heritage Cadillac\", "address" : \"303 W Roosevelt Rd\"}, { "name" : \"Grossinger Cadillac\", "address" : \"6900 McCormick Blvd\"}, { "name" : \"Shirey Cadillac\", "address" : \"10125 S Cicero Ave\"}]}</item>
+        <item>{"dealerList" : [{ "name" : \"Mike Anderson Chevrolet of Chicago\", "address" : \"5333 W Irving Park Rd\"}, { "name" : \"Kingdom Chevy\", "address" : \"6603 S Western Ave\"}, { "name" : \"Currie Motors Chevrolet\", "address" : \"8401 W Roosevelt Rd\"}]}</item>
+        <item>{"dealerList" : [{ "name" : \"Midway Dodge\", "address" : \"4747 S Pulaski Rd\"}, { "name" : \"Marino Chrysler Jeep Dodge\", "address" : \"5133 W Irving Park Rd\"}, { "name" : \"South Chicago Dodge Chrysler Jeep\", "address" : \"7340 S Western Ave\"}, { "name" : \"Napleton\'s Northwestern Chrysler Jeep Dodge Ram\", "address" : \"5950 N Western Ave\"}]}</item>
+        <item>{"dealerList" : [{ "name" : \"Fox Ford Lincoln\", "address" : \"2501 N Elston Ave\"}, { "name" : \"Metro Ford Sales and Service\", "address" : \"6455 S Western Ave\"}, { "name" : \"Al Piemonte Ford\", "address" : \"2500 W North Ave\"}, { "name" : \"Golf Mill Ford\", "address" : \"9401 N Milwaukee Ave\"}]}</item>
+        <item>{"dealerList" : [{ "name" : \"Fletcher Jones Honda\", "address" : \"1111 N Clark St Suite 2\"}, { "name" : \"Honda City Chicago\", "address" : \"4950 S Pulaski Rd\"}, { "name" : \"McGrath City Honda\", "address" : \"6720 W Grand Ave\"}, { "name" : \"Grossinger Honda\", "address" : \"6600 N Western Ave\"}, { "name" : \"Honda On Grand\", "address" : \"300 West Grand Avenue\"}, { "name" : \"Ed Napleton Honda of Oak Lawn Dealer\", "address" : \"5800 95th St\"}, { "name" : \"Castle Honda\", "address" : \"6900 Dempster St\"}]}</item>
+        <item>{"dealerList" : [{ "name" : \"Land Rover Chicago\", "address" : \"1924 N Paulina St\"}, { "name" : \"Land Rover Hinsdale\", "address" : \"300 E Ogden Ave\"}, { "name" : \"Land Rover Northfield\", "address" : \"670 Frontage Rd\"}, { "name" : \"Land Rover Orland Park\", "address" : \"8031 W 159th St\"}]}</item>
+        <item>{"dealerList" : [{ "name" : \"McGrath Lexus of Chicago\", "address" : \"1250 W Division St\"}, { "name" : \"Lexus of Orland\", "address" : \"8300 W 159th St\"}, { "name" : \"Bredemann Lexus\", "address" : \"2000 Waukegan Rd\"}, { "name" : \"Woodfield Lexus\", "address" : \"350 E Golf Rd\"}]}</item>
+        <item>{"dealerList" : [{ "name" : \"Mercedes-Benz of Chicago\", "address" : \"1520 W North Ave\"}, { "name" : \"Greater Chicago Motors\", "address" : \"1850 N Elston Ave\"}, { "name" : \"Mercedes-Benz of Chicago Service Center Auto Repair Shop\", "address" : \"949 N Elston Ave #2\"}, { "name" : \"Loeber Motors\", "address" : \"4255 Touhy Ave\"}]}</item>
+        <item>{"dealerList" : [{ "name" : \"Berman Nissan of Chicago\", "address" : \"3456 N Kedzie Ave\"}, { "name" : \"Western Avenue Nissan\", "address" : \"7410 S Western Ave\"}, { "name" : \"Kelly Nissan, Inc.\", "address" : \"4300 95th St\"}, { "name" : \"The Autobarn Nissan of Evanston\", "address" : \"1012 Chicago Ave\"}, { "name" : \"Continental Nissan\", "address" : \"5750 South La Grange Road\"}]}</item>
+        <item>{"dealerList" : [{ "name" : \"Loeber Porsche\", "address" : \"7101 Lincoln Ave\"}, { "name" : \"Loeber Motors\", "address" : \"4255 Touhy Ave\"}, { "name" : \"Napleton Porsche\", "address" : \"311 E Ogden Ave\"}, { "name" : \"Porsche Exchange\", "address" : \"2300 Skokie Valley Rd\"}]}</item>
+        <item>{"dealerList" : [{ "name" : \"Grossinger City Toyota\", "address" : \"1561 N Fremont St\"}, { "name" : \"Midtown Toyota\", "address" : \"2700 N Cicero Ave\"}, { "name" : \"Toyota On Western\", "address" : \"6941 S Western Ave\"}, { "name" : \"Chicago Northside Toyota\", "address" : \"5625 North Broadway\"}]}</item>
+        <item>{"dealerList" : [{ "name" : \"Mike Haggerty Volkswagen\", "address" : \"8920 S Cicero Ave\"}, { "name" : \"Jennings Volkswagen\", "address" : \"201 Waukegan Rd\"}, { "name" : \"The Autobarn Volkswagen of Evanston\", "address" : \"1033 Chicago Ave\"}]}</item>
+    </string-array>
+</resources>
